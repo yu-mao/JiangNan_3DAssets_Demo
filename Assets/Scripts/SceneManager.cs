@@ -1,16 +1,17 @@
+using System;
 using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Animator _smallHouseAnimator;
+
+    private void Start()
     {
-        
+        OpenDoor();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OpenDoor()
     {
-        
+        _smallHouseAnimator.SetTrigger("OpenDoor");
     }
 }
