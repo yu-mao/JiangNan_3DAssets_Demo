@@ -60,8 +60,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Depth: 1
+    - _Displacement: 0
+    - _NormalStrength: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Smoothness: 0.5
     - _Strength: 0.01
     - _WaveTime: 0.1
     m_Colors:
