@@ -37,6 +37,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainNormal:
+        m_Texture: {fileID: 2800000, guid: 75a5eb94ef23b4aaba30be8bb33b7fc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNormal:
+        m_Texture: {fileID: 2800000, guid: 81ccddb8895df4edf973b082810484d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
